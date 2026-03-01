@@ -1,5 +1,2 @@
 discord
-re
-asyncio
 aiohtt
-os
