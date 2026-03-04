@@ -13,7 +13,7 @@ load_dotenv()
 
 TOKEN = os.getenv('DISCORD_BOT_TOKEN')
 VT_API_KEY = os.getenv('VIRUSTOTAL_API_KEY')
-LOG_CHANNELS = [1477328726214578371, 1410480747604742154]
+LOG_CHANNELS = [1410480747604742154, 1477328726214578371]
 DB_PATH = "security_cache.db"
 URL_REGEX = r"(https?://[^\s]+)"
 
@@ -183,3 +183,4 @@ async def on_message(message):
 
 if __name__ == "__main__":
     bot.run(TOKEN)
+
